@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Afilli Blog</title>
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Afilli<span>Blog</span></a>
+      <button class="nav-toggle" aria-label="Menü" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="#posts">Yazılar</a>
+        <a href="#about">Hakkında</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Fikirlerin parladığı yer</h1>
+        <p class="lead">Kısa, şık ve etkileyici yazılar — tasarım modern, okunması keyifli.</p>
+        <p><a class="cta" href="#posts">Yeni Yazıları Gör</a></p>
+      </div>
+    </section>
+
+    <section id="posts" class="container posts">
+      <h2>Öne Çıkan Yazılar</h2>
+      <div class="grid">
+        <article class="card">
+          <a href="posts/post1.html">
+            <h3>Minimal UI Tasarım İlkeleri</h3>
+            <p class="meta">12 Ocak 2026 • Tasarım</p>
+            <p>Temiz formlar, boşluk kullanımı ve okunabilir tipografi üzerine kısa bir rehber.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="posts/post2.html">
+            <h3>Performans Odaklı Web</h3>
+            <p class="meta">5 Ocak 2026 • Performans</p>
+            <p>Hızlı yükleme ve akıcı deneyim için pratik ipuçları.</p>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Hakkında</h2>
+      <p>Bu küçük demo blog, modern tipografi, gradient ve basit animasyonlarla afilli bir görünüm sunar. İstersen daha fazla yazı ve sayfa ekleyebilirim.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><small>© 2026 Afilli Blog — Tasarım: Sen + Ben</small></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
